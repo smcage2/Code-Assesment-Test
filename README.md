@@ -43,7 +43,7 @@ https://smcage2.github.io/Code-Assesment-Test/
 Review the website using the above link.
 
 ## Credits
+https://www.codeexplained.dev/2018/10/create-multiple-choice-quiz-using-javascript.html
 
 ## License
-
 Please refer to LICENSE in repo.

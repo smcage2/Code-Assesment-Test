@@ -43,12 +43,12 @@ let questions = [
 
     },{
         questionNumber : "Question 4:",
-        question : "Inside which HTML element do we put the JavaScript?",
-        choiceA : "<js></js>",
-        choiceB : "<script></script>",
-        choiceC : "<scripting></scripting>",
+        question : "Which is not a datatype in JavaScript?",
+        choiceA : "Boolean",
+        choiceB : "Number",
+        choiceC : "String",
         choiceD : "None of the Above",
-        correct : "B"
+        correct : "D"
     },{
         questionNumber : "Question 5:",
         question : "What does JS stand for?",

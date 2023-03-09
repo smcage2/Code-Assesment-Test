@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Code Assessment Test</title>
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+
+    <body>
+
+        <header class="container">
+            <h1>Code Assessment Test</h1>
+            <button class="btn start-btn">Start Quiz!</button>
+        </header>
+       
+        <main>
+            <section>
+                <div id="quiz" style="display: none">
+                    <div id="questionNumber"></div>
+                    <div id="question"></div>
+                    <div id="choices">
+        
+                        <button class="choice" id="A" onclick="checkAnswer('A')"></button>
+                        <button class="choice" id="B" onclick="checkAnswer('B')"></button>
+                        <button class="choice" id="C" onclick="checkAnswer('C')"></button>
+                        <button class="choice" id="D" onclick="checkAnswer('D')"></button>
+        
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class= "timer" id="timerContainer" >
+                    <h3>seconds remaining</h3>
+                    <div class="large-font" id="timer-count"></div>
+                </div>
+
+                <div id="scoreContainer" style="display: none">
+                    <h1>Top Scores:</h1>
+                    <h2 id="actuals"></h2>
+                </div>
+
+                </div>
+            </section>
+        </main>
+        <script src="./assets/js/script.js"></script>
+    </body>
+</html>
